@@ -9,13 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ynln69/goit-node.js-hw1-CLI.git"
+    "url": "git+https://github.com/AlbinaViv/goit-node-cli"
   },
   "keywords": [
     ""
   ],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbinaViv/goit-node-cli/issues"
+  },
   "dependencies": {
     "commander": "^12.0.0",
     "cors": "^2.8.5",
