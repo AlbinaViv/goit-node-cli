@@ -25,6 +25,7 @@
     "express": "^4.19.1"
   },
   "devDependencies": {
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "sharp": "^0.33.2"
   }
 }

@@ -1,6 +1,8 @@
-exports.contactsPath = require("./db/contacts.json");
+const fs = require("fs/promises");
+const path = require("path");
+const { nanoid } = require("nanoid");
 
-contactsPath();
+const contactsPath = path.join(__dirname, "db/contacts.json");
 
 async function listContacts() {
   // ...твій код. Повертає масив контактів.
